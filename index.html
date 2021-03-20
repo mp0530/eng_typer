@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+
+<html>
+    <meta charset="utf-8">
+    <head>
+        <script src="jquery.min.js"></script>
+    </head>
+	
+		<style>
+			#start{
+				color: yellow;
+				background-color: red;
+				font-size: 10vh;
+				font-weight: bold;
+				border: 5px solid black;
+				cursor: pointer;
+/*				border-radius: 50%;*/
+			
+				
+			}
+		</style>
+    
+    <body>
+        <p style = "margin: 10% 10px 10px 10px; color:blue; font-size: 18vh; text-align: center; font-weight: bold">全新快打高手</p>
+        <p style = "margin: 10px; color: brown; font-size: 8vh; text-align: center; font-weight: bold;">英文字母鍵盤1 (不分大小寫)</p> 
+        <p style = "color: blue; font-size: 5vh; text-align: center;">ASDFGHJKL</p>
+        <p style = "text-align: center"><button id = "start">開始</button></p>
+    
+    </body>
+    
+    <script>
+        $(document).ready(function(){
+            $("#start").click(function(){
+                window.location.href = 'index2.html';
+            })
+        });
+    </script>
+
+
+</html>
